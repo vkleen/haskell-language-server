@@ -83,6 +83,7 @@
                     "13jz8c46zfpf54ya2wsv4akhn0wcfc6qjazqsjfir5gpvsi7v8xr";
                 }) { };
 
+              hls-hlint-plugin = hself.callCabal2nixWithOptions "hls-hlint-plugin" ./plugins/hls-hlint-plugin "-f-hlint33" {};
             };
 
           hlsSources =
